@@ -1,5 +1,5 @@
-import prisma from '$lib/server/prisma.js';
 import { login } from "$lib/authStore"
+import prisma from "$lib/server/prisma.js";
 import type { Applicant } from '@prisma/client';
 import { json } from '@sveltejs/kit';
 
